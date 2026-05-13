@@ -424,7 +424,9 @@ footer {
 /* ===== MOBILE RESPONSIVE ===== */
 
 @media (max-width: 768px) {
-
+    nav {
+    flex-direction: column;
+    }
     .home-content {
         flex-direction: column-reverse;
         text-align: center;
